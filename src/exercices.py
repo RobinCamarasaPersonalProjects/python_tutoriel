@@ -1,44 +1,38 @@
 import numpy as np
 
 
-def ex_1() -> np.ndarray:
+def ex_1(n: int) -> np.ndarray:
     """
-    En une ligne, creer un tableau de dimension (3, 4, 5).
+    Creer une fonction qui affiche les nombres entre 1 et n par ordre croissant.
+
+    :param n: Un nombre
     """
     pass
 
 
-def ex_2(arr: np.ndarray) -> np.ndarray:
+def ex_2(n: int) -> np.ndarray:
     """
-    Creer une fonction qui renvoie les indices d’un tableau dont les valeurs sont paires
+    Creer une fonction qui affiche les nombres entre 1 et n par ordre décroissant.
 
-    :param arr: Numpy array
+    :param n: Un nombre
     """
     pass
 
 
 def ex_3(n: int) -> np.ndarray:
     """
-    Implémentez le triangle de Pascal.
+    Créer la fonction factorielle
 
-    :param n: Nombre
+    :param n: Un nombre
     """
     pass
 
 
-def ex_4(A, B):
+def ex_4(age):
     """
-    Ecrire une fonction de résolution de systèmes linéaires de la forme AX = B.
+    Créer une fonction affichant la catégorie d’une personne en fonction de son age.
 
-    :param A: Matrice carrée contenant les paramètres du système
-    :param B: Vector colonne contenant les paramètres du système
-    """
-    pass
-
-
-def ex_5():
-    """
-    Chargez le fichier data/data.npy mettez l’ensemble de ces valeursau carr ́e sauvegardez le tableau dans le fichier data/datasquared.npy
+    :param age: Age de la personne consideree
     """
     pass
 

@@ -4,20 +4,14 @@ import numpy as np
 
 if __name__ == '__main__':
     exercices = [
-        ex_1, ex_2, ex_3, ex_4, ex_5
+        ex_1, ex_2, ex_3, ex_4
     ]
-    arguments = [
-        None,
-        (np.arange(5),),
-        (5,),
-        (np.eye(3), np.arange(3)),
-        None
-    ]
+    arguments = 4 * [(5,)]
 
     for exercice, args in zip(
         exercices, arguments
     ):
-        print("\n\n### {} ###\n".format(exercice.__name__.upper()))
+        print("\n\n### {} ###\n :".format(exercice.__name__.upper()))
         if args is None:
             input = "None"
             output = exercice()
