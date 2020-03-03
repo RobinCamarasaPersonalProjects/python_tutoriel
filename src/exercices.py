@@ -1,44 +1,28 @@
 import numpy as np
+from typing import Callable
 
 
-def ex_1() -> np.ndarray:
+def ex_1(f: Callable) -> None:
     """
-    En une ligne, creer un tableau de dimension (3, 4, 5).
-    """
-    pass
-
-
-def ex_2(arr: np.ndarray) -> np.ndarray:
-    """
-    Creer une fonction qui renvoie les indices d’un tableau dont les valeurs sont paires
-
-    :param arr: Numpy array
+    Ecrire une fonction (informatique) affichant une fonction (mathématique) sur l’interval [xmin,xmax]
     """
     pass
 
 
-def ex_3(n: int) -> np.ndarray:
+def ex_2(mu: float, sigma: float, n: int) -> None:
     """
-    Implémentez le triangle de Pascal.
+    Ecrire une fonction qui affiche l’histogramme d’une simulation d’une loi normale de moyenne mu et d’ecart-type sigma comportant nbpoints.
 
-    :param n: Nombre
-    """
-    pass
-
-
-def ex_4(A, B):
-    """
-    Ecrire une fonction de résolution de systèmes linéaires de la forme AX = B.
-
-    :param A: Matrice carrée contenant les paramètres du système
-    :param B: Vector colonne contenant les paramètres du système
+    :param mu: Moyenne de la distribution
+    :param sigma: Ecart-type de la distribution
     """
     pass
 
 
-def ex_5():
+def ex_3() -> None:
     """
-    Chargez le fichier data/data.npy mettez l’ensemble de ces valeursau carr ́e sauvegardez le tableau dans le fichier data/datasquared.npy
+    Affichez sous forme d’histogramme avec incertitudes les données contenues  dans  les  fichiers
+    data/meanscore.npy,  data/menheight.npy  et  da-ta/stdscore.npy.
     """
     pass
 
