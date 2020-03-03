@@ -7,7 +7,7 @@ if __name__ == '__main__':
         ex_1, ex_2, ex_3
     ]
     arguments = [
-        (lambda x: x**2,),
+        (0, 1, lambda x: x**2,),
         (0.5, 0.25, 30),
         None
     ]
