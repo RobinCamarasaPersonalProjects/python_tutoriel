@@ -8,7 +8,7 @@ if __name__ == '__main__':
     ]
     arguments = [
         'n',
-        ('Hello',),
+        ('hello',),
         (100,)
     ]
 
