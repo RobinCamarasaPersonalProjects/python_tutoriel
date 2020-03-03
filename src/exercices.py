@@ -1,44 +1,27 @@
 import numpy as np
 
 
-def ex_1() -> np.ndarray:
+def ex_1(c: str) -> int:
     """
-    En une ligne, creer un tableau de dimension (3, 4, 5).
-    """
-    pass
-
-
-def ex_2(arr: np.ndarray) -> np.ndarray:
-    """
-    Creer une fonction qui renvoie les indices d’un tableau dont les valeurs sont paires
-
-    :param arr: Numpy array
+    Créer une fonction qui renvoie la position dans l’alphabet d’un charactère.
     """
     pass
 
 
-def ex_3(n: int) -> np.ndarray:
+def ex_2(s: str) -> list:
     """
-    Implémentez le triangle de Pascal.
+    En s’aidant de l’exercice 1, créer une fonction qui renvoie la liste des positions dans
+    l’alphabet des charactères d’une chaîne de charactère.
+    """
+    pass
+
+
+def ex_3(n: int) -> list:
+    """
+    Implémentez une fonction qui renvoie la liste des nombres premiers  entre  1  et  n a
+    l’aide  de  la  méthode  du  crible  d’Eratosthene
 
     :param n: Nombre
-    """
-    pass
-
-
-def ex_4(A, B):
-    """
-    Ecrire une fonction de résolution de systèmes linéaires de la forme AX = B.
-
-    :param A: Matrice carrée contenant les paramètres du système
-    :param B: Vector colonne contenant les paramètres du système
-    """
-    pass
-
-
-def ex_5():
-    """
-    Chargez le fichier data/data.npy mettez l’ensemble de ces valeursau carr ́e sauvegardez le tableau dans le fichier data/datasquared.npy
     """
     pass
 

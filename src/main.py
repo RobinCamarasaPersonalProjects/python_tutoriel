@@ -4,14 +4,12 @@ import numpy as np
 
 if __name__ == '__main__':
     exercices = [
-        ex_1, ex_2, ex_3, ex_4, ex_5
+        ex_1, ex_2, ex_3
     ]
     arguments = [
-        None,
-        (np.arange(5),),
-        (5,),
-        (np.eye(3), np.arange(3)),
-        None
+        'n',
+        ('Hello',),
+        (100,)
     ]
 
     for exercice, args in zip(
